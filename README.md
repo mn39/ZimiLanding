@@ -1,4 +1,4 @@
-# zimi-landing-nuxt
+# zimi-landing-web
 
 ## Build Setup
 

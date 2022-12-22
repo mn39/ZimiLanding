@@ -42,7 +42,32 @@
     </div>
     <div class="container996">
       <div class="forArrow">
-        <carousel class="carousel" :nav="false" :items="1">
+        <div class="carousel">
+          <div class="oneCarousel">
+            <div class="carouselColumn">
+              <img src="../assets/phone.png" class="firstCarousel" alt="" />
+              <div class="firstCarouselText">
+                회원 가입도 간편하고 편해서 좋고 미션들도 너무 쉽고 적립금도
+                현금으로 바꿀 수 있어 일석이조입니다. 이런 좋은 앱 많이 나왔으면
+                좋겠습니다. 이벤트 때문에 가입했는데 지인들에게 널리 알리고
+                싶어요!
+              </div>
+            </div>
+
+            <div class="carouselColumn">
+              <div class="secondCarousel">
+                <div class="carouselTitle">
+                  환경도 지키고<br />제 삶에도 유용해요
+                </div>
+                <div class="carouselText">지미를 만난지 6개월차 김진태님</div>
+              </div>
+              <div class="secondCarouselText">
+                <img src="../assets/phonePerson.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <carousel class="carousel" :nav="false" :items="1">
           <template slot="prev">
             <span class="prev">
               <img src="../assets/leftArrow.svg" alt="" />
@@ -121,47 +146,45 @@
             ><span class="next">
               <img src="../assets/rightArrow.svg" alt="" /></span
           ></template>
-        </carousel>
+        </carousel> -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import carousel from "vue-owl-carousel";
 export default {
-  components: { carousel },
   data() {
     return {
       reviewList: [...Array(28).keys()],
       temp: [],
-    };
+    }
   },
   methods: {
     moveLeft() {
-      this.temp = this.reviewList.slice();
+      this.temp = this.reviewList.slice()
       // this.temp.push(this.temp.shift());
-      this.temp.unshift(this.temp.pop());
-      this.reviewList.splice(0, 28);
+      this.temp.unshift(this.temp.pop())
+      this.reviewList.splice(0, 28)
 
       setTimeout(() => {
-        this.reviewList = this.temp;
+        this.reviewList = this.temp
         // this.nownum = (Math.abs(((this.temp[4] - 1) % 8) - 4) % 8) + 1;
-      }, 2000);
+      }, 2000)
     },
     start() {
       setTimeout(() => {
-        this.moveLeft();
-        this.start();
-      }, 2000);
+        this.moveLeft()
+        this.start()
+      }, 2000)
     },
   },
   created() {
     setTimeout(() => {
-      this.start();
-    }, 2000);
+      this.start()
+    }, 2000)
   },
-};
+}
 </script>
 
 <style>
@@ -188,7 +211,7 @@ export default {
 .reviewTitle {
   width: 100%;
   margin-top: 154px;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -274,7 +297,7 @@ export default {
   border-radius: 10px;
   padding: 40px;
 
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -298,7 +321,7 @@ export default {
   justify-content: space-between;
 }
 .carouselTitle {
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 600;
   font-size: 44px;
@@ -309,7 +332,7 @@ export default {
 }
 .carouselText {
   text-align: left;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;

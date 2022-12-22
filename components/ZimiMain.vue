@@ -69,11 +69,11 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="css" scoped>
 .zimiMain {
   height: 1080px;
   overflow: hidden;
@@ -106,7 +106,7 @@ export default {};
 
   margin-top: 174px;
   margin-bottom: 0px;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 700;
   font-size: 76px;
@@ -121,7 +121,7 @@ export default {};
   margin-bottom: 0px;
   text-align: left;
 
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
@@ -272,7 +272,7 @@ export default {};
 }
 
 .appDownText {
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -297,7 +297,7 @@ export default {};
 }
 
 .detail2 {
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 26px;

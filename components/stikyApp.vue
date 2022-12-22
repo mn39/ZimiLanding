@@ -1,6 +1,6 @@
 <template>
   <div class="stickyBody">
-    <div class="sticky" onClick="javascript:window.scrollTo(0,0)">
+    <div class="sticky" onClick="">
       <div>지미 앱</div>
       <div>
         받기
@@ -14,10 +14,10 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
-<style>
+<style lang="css">
 .stickyBody {
   z-index: 10;
   position: sticky;
@@ -34,7 +34,7 @@ export default {};
   border-radius: 50%;
   background: #b8f401;
   filter: drop-shadow(0px 20px 20px rgba(81, 88, 91, 0.2));
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 700;
   font-size: 30px;

@@ -9,7 +9,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style scoped>
@@ -35,7 +35,7 @@ export default {};
   margin-right: 788px;
 }
 .contactUs {
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
