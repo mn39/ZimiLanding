@@ -19,6 +19,7 @@
     "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
+    "@nuxtjs/vercel-builder": "^0.24.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1"
   }
