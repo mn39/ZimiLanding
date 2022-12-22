@@ -15,11 +15,17 @@
             지구 지킴이 습관이 되는 것을 목표로 합니다.
           </h3>
           <div class="appDownloadContainer">
-            <div class="appDownload">
+            <div
+              class="appDownload"
+              onclick="location.href='https://apps.apple.com/kr/app/%EC%A7%80%EB%AF%B8-%EC%9D%BC%EC%83%81%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EC%A7%80%EA%B5%AC-%EC%A7%80%ED%82%B4%EC%9D%B4/id1632998684'"
+            >
               <img class="appStoreLogo" src="../assets/appStore.svg" alt="" />
               <div class="appDownText">App Store</div>
             </div>
-            <div class="appDownload">
+            <div
+              class="appDownload"
+              onclick="location.href='https://play.google.com/store/apps/details?id=net.greenstaff.android.app'"
+            >
               <img
                 class="googlePlayLogo"
                 src="../assets/googlePlay.svg"
@@ -45,9 +51,18 @@
         <div class="ellipseRecycle">
           <img src="../assets/img-09.svg" class="recycle" alt="" />
         </div>
-        <div class="people">
-          <img src="../assets/people-05.svg" alt="" />
-        </div>
+        <img class="people" src="../assets/people-05.svg" alt="" />
+      </div>
+    </div>
+    <div class="mainBot">
+      <div class="detail2">
+        개인과 기업, 정부까지<br />
+        우리 모두가 실천한 친환경 활동을 정량적으로 측정해드립니다.<br />
+        이는 지구를 지키는 일에 보람을 더하며 올바른 환경보호 방법을<br />
+        알려드리는 기회가 되기도 합니다. <br />
+        <br />
+        지미는 개인과 기업 그리고 정부 모두의 노력을 공유하여<br />
+        그린 경제의 선두자로 나아가고자 합니다.
       </div>
     </div>
   </div>
@@ -61,6 +76,7 @@ export default {};
 <style scoped>
 .zimiMain {
   height: 1080px;
+  overflow: hidden;
   background: linear-gradient(
     180deg,
     #f1ffe3 21.9%,
@@ -109,8 +125,7 @@ export default {};
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
-  line-height: 34px;
-  /* or 131% */
+  line-height: 131%;
 
   letter-spacing: -0.4px;
 
@@ -118,7 +133,7 @@ export default {};
 }
 .hill {
   position: absolute;
-  left: -50%;
+  left: -50vw;
   bottom: 0%;
   display: flex;
   flex-direction: column;
@@ -141,11 +156,7 @@ export default {};
   width: 2835px;
   height: 1289.17px;
   border-radius: 50%;
-  background: linear-gradient(
-    180deg,
-    #b8f400 4.78%,
-    rgba(184, 244, 0, 0.8) 84.08%
-  );
+  background: #b8f400;
 }
 
 .ellipseBicycle {
@@ -206,6 +217,7 @@ export default {};
 
 .relativeDiv {
   position: relative;
+  width: 0;
   left: 50vw;
 }
 .people {
@@ -242,6 +254,11 @@ export default {};
   align-items: center;
   justify-content: center;
 }
+
+.appDownload:hover {
+  background: #a5e400;
+  border: 1px solid #a5e400;
+}
 .appStoreLogo {
   width: 30px;
   height: 36.76px;
@@ -264,5 +281,252 @@ export default {};
   letter-spacing: -0.4px;
 
   color: #222222;
+}
+
+.mainBot {
+  padding-top: 90px;
+
+  width: 100vw;
+  height: 387px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(184, 244, 0, 1) 0%,
+    rgba(184, 244, 0, 0) 100%
+  );
+}
+
+.detail2 {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 131%;
+  text-align: center;
+  letter-spacing: -0.4px;
+
+  color: #000000;
+}
+
+@media (max-width: 1044px) {
+  .mainFlexContainer {
+    padding: 0 36px;
+    align-items: stretch;
+  }
+  .mainFlex {
+    width: auto;
+  }
+  .title {
+    font-size: 70px;
+    line-height: 84px;
+  }
+  .detail {
+    z-index: 5;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .ellipseBicycle {
+    top: -512.94px;
+    left: -81px;
+    width: 203.21px;
+    height: 203.21px;
+    border-radius: 50%;
+  }
+  .bicycle {
+    width: 132.24px;
+    height: 110.3px;
+  }
+
+  .ellipseFoot {
+    top: -866px;
+    left: 242.06px;
+    width: 245.99px;
+    height: 245.99px;
+  }
+
+  .foot {
+    width: 145.32px;
+    height: 165.62px;
+  }
+
+  .ellipseRecycle {
+    top: -338.34px;
+    left: 318.62px;
+    width: 166.83px;
+    height: 166.83px;
+  }
+
+  .recycle {
+    width: 63.23px;
+    height: 130.46px;
+  }
+  .people {
+    top: -785px;
+    width: 299px;
+    height: 694px;
+    left: 50.44px;
+  }
+
+  .appDownloadContainer {
+    margin-top: 318px;
+  }
+  .appDownload:nth-child(1) {
+    margin-right: 22px;
+  }
+  .appDownload {
+    width: 230px;
+    height: 66.53px;
+  }
+}
+
+@media (max-width: 722px) {
+  .title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .detail {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .ellipseBicycle {
+    top: -518.14px;
+    left: -73px;
+    width: 174.89px;
+    height: 174.89px;
+    border-radius: 50%;
+  }
+  .bicycle {
+    width: calc(113.82px * (100vw / 722px));
+    height: 94.92px;
+  }
+
+  .ellipseFoot {
+    top: -822px;
+    left: 203.32px;
+    width: 211.71px;
+    height: 211.71px;
+  }
+
+  .foot {
+    width: 125.07px;
+    height: 142.54px;
+  }
+
+  .ellipseRecycle {
+    top: -367.87px;
+    left: 270.94px;
+    width: 143.58px;
+    height: 143.58px;
+  }
+
+  .recycle {
+    width: 54.42px;
+    height: 112.28px;
+  }
+  .people {
+    top: -752px;
+    width: 257px;
+    height: 597px;
+    left: 40px;
+  }
+  .appDownloadContainer {
+    margin-top: 376px;
+  }
+
+  .detail2 {
+    font-size: 20px;
+    line-height: 170%;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .detail {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .ellipseBicycle {
+    top: -518.14px;
+    left: -73px;
+    width: 174.89px;
+    height: 174.89px;
+    border-radius: 50%;
+  }
+  .bicycle {
+    width: calc(113.82px * (100vw / 722px));
+    height: 94.92px;
+  }
+
+  .ellipseFoot {
+    top: -822px;
+    left: 203.32px;
+    width: 211.71px;
+    height: 211.71px;
+  }
+
+  .foot {
+    width: 125.07px;
+    height: 142.54px;
+  }
+
+  .ellipseRecycle {
+    top: -367.87px;
+    left: 270.94px;
+    width: 143.58px;
+    height: 143.58px;
+  }
+
+  .recycle {
+    width: 54.42px;
+    height: 112.28px;
+  }
+  .people {
+    top: -752px;
+    width: 257px;
+    height: 597px;
+    left: 40px;
+  }
+  .appDownloadContainer {
+    margin-top: 376px;
+  }
+  .appDownload:nth-child(1) {
+    margin-right: 14.26px;
+  }
+  .appDownload {
+    width: 150px;
+    height: 45px;
+  }
+  .appStoreLogo {
+    width: 18px;
+    height: 21px;
+    margin-right: 6px;
+  }
+
+  .googlePlayLogo {
+    width: 15px;
+    height: 19px;
+    margin-right: 5px;
+  }
+  .appDownText {
+    font-size: 18px;
+  }
+  .detail2 {
+    font-size: 18px;
+    line-height: 170%;
+  }
+}
+@media (max-width: 430px) {
+  .detail2 {
+    font-size: 14px;
+  }
+  .detail {
+    margin-top: 17px;
+  }
 }
 </style>

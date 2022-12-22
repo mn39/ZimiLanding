@@ -12,7 +12,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .headerContainer {
   width: 100vw;
   display: flex;
@@ -20,6 +20,7 @@ export default {};
   align-items: stretch;
   position: fixed;
   background: #ffffff;
+  z-index: 9;
 }
 .header {
   height: 64px;
@@ -48,5 +49,15 @@ export default {};
   height: 1px;
   background: #d8dee4;
   transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+@media (max-width: 1044px) {
+  .header {
+    padding: 0 36px;
+    justify-content: space-between;
+  }
+  .zimiLogo {
+    margin: 0;
+  }
 }
 </style>
