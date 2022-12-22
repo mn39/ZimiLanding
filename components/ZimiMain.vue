@@ -7,13 +7,13 @@
             일상에서 시작하는<br />
             지구지킴이 생활, 지미
           </h1>
-          <h3 class="detail">
+          <h2 class="detail">
             지미는 미션을 통해 지구를 위한<br />
             당신의 작은 실천의 시작에 함께합니다. 리워드를 통해 <br />
             환경보호를 재밌게, 꾸준히 지속하도록 돕습니다.<br />
             보상, 동기, 패널티, 커뮤니티를 핵심 요소로 <br />
             지구 지킴이 습관이 되는 것을 목표로 합니다.
-          </h3>
+          </h2>
           <div class="appDownloadContainer">
             <div
               class="appDownload"

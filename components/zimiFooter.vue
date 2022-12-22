@@ -51,7 +51,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style>
@@ -112,7 +112,7 @@ export default {};
 
 .downText {
   margin-top: 56px;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -163,7 +163,7 @@ export default {};
 }
 
 .appDownText {
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -182,7 +182,7 @@ export default {};
   background: #d8dee4;
 }
 .service {
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -205,7 +205,7 @@ export default {};
   margin-top: 26px;
   margin-bottom: 113px;
   text-align: left;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;

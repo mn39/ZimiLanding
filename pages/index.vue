@@ -10,14 +10,15 @@
 </template>
 
 <script>
-import zimiMain from "./components/ZimiMain.vue";
-import zimiHeader from "./components/ZimiHeader.vue";
-import UserReview from "./components/UserReview.vue";
-import ZigZag from "./components/zigZag.vue";
-import ZimiFooter from "./components/zimiFooter.vue";
-import StikyApp from "./components/stikyApp.vue";
+import zimiMain from '@/components/ZimiMain.vue'
+import zimiHeader from '@/components/ZimiHeader.vue'
+import UserReview from '@/components/UserReview.vue'
+import ZigZag from '@/components/zigZag.vue'
+import ZimiFooter from '@/components/zimiFooter.vue'
+import StikyApp from '@/components/stikyApp.vue'
+
 export default {
-  name: "App",
+  name: 'App',
   components: {
     zimiMain,
     zimiHeader,
@@ -26,7 +27,7 @@ export default {
     ZimiFooter,
     StikyApp,
   },
-};
+}
 </script>
 
 <style>
@@ -37,5 +38,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
+}
+
+body {
+  margin: 0;
 }
 </style>

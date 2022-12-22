@@ -118,7 +118,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style scoped>
@@ -155,7 +155,7 @@ export default {};
 }
 
 .statTitle {
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -169,7 +169,7 @@ export default {};
 .tot {
   margin-top: 62px;
 
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 700;
   font-size: 46px;
@@ -183,7 +183,7 @@ export default {};
 .dau {
   margin-top: 16px;
 
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 700;
   font-size: 38px;
@@ -210,7 +210,7 @@ export default {};
 }
 .oneStore {
   position: relative;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
@@ -252,7 +252,7 @@ export default {};
 }
 .plz {
   margin-top: 36px;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -266,7 +266,7 @@ export default {};
 .reviewTitle {
   width: 100%;
   margin-top: 112px;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -308,7 +308,7 @@ export default {};
 }
 .reviewText {
   height: 137px;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -331,7 +331,7 @@ export default {};
   margin-right: 10px;
 }
 .reviewName {
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
