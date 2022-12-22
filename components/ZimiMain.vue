@@ -214,7 +214,7 @@ export default {}
   height: 142.07px;
   transform: rotate(3.12deg);
 }
-
+/*asdfasdfasdf */
 .relativeDiv {
   position: relative;
   width: 0;
@@ -398,7 +398,7 @@ export default {}
     border-radius: 50%;
   }
   .bicycle {
-    width: calc(113.82px * (100vw / 722px));
+    width: 113.82px;
     height: 94.92px;
   }
 
@@ -459,7 +459,7 @@ export default {}
     border-radius: 50%;
   }
   .bicycle {
-    width: calc(113.82px * (100vw / 722px));
+    width: 113.82px;
     height: 94.92px;
   }
 
