@@ -1,6 +1,6 @@
 <template>
   <div class="stickyBody">
-    <div class="sticky" onClick="">
+    <div class="sticky" onClick="javascript:window.scrollTo(0,0);">
       <h3>지미 앱</h3>
       <h5>
         받기

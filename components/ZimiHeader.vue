@@ -2,7 +2,7 @@
   <div class="headerContainer">
     <div class="header">
       <img src="../assets/ZIME.svg" class="zimiLogo" alt="" />
-      <div class="contactUs">Contact us</div>
+      <a class="contactUs" href="https://tally.so/r/wo9DRx"> Contact us </a>
     </div>
     <div class="headerLine"></div>
   </div>

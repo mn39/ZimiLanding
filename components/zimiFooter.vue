@@ -39,11 +39,15 @@
       <div class="service">
         <h4>서비스 문의</h4>
         <img src="../assets/serviceCheck.svg" alt="" />
-        <h4>제휴 문의</h4>
+        <a href="https://tally.so/r/wo9DRx">제휴 문의</a>
         <img src="../assets/serviceCheck.svg" alt="" />
-        <h4>개인정보 처리방침</h4>
+        <a href="https://dc8zjh64rosgh.cloudfront.net/mydata_policy.txt"
+          >개인정보 처리방침</a
+        >
         <img src="../assets/serviceCheck.svg" alt="" />
-        <h4>이용약관</h4>
+        <a href="https://dc8zjh64rosgh.cloudfront.net/app_policy.txt"
+          >이용약관</a
+        >
         <img src="../assets/serviceCheck.svg" alt="" />
       </div>
       <h5 class="copyRight">Copyright © 2022 ZIME All Rights Reserved.</h5>
@@ -198,6 +202,17 @@ h4 {
 
   color: #51585b;
 }
+
+.service a {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.4px;
+
+  color: #51585b;
+}
 .service {
   margin-top: 30px;
   margin-left: 71px;
@@ -266,6 +281,10 @@ h4 {
     font-size: 16px;
     line-height: 26px;
   }
+  .service a {
+    font-size: 16px;
+    line-height: 26px;
+  }
   .copyRight {
     font-size: 16px;
     line-height: 26px;
@@ -307,6 +326,9 @@ h4 {
     margin-left: 0px;
   }
   .service h4 {
+    font-size: 10px;
+  }
+  .service a {
     font-size: 10px;
   }
   .service img {

@@ -50,19 +50,16 @@
                 <img src="../assets/phonePerson.png" alt="" />
               </div>
               <h4 class="firstCarouselText">
-                회원 가입도 간편하고 편해서 좋고 미션들도 너무 쉽고 적립금도
-                현금으로 바꿀 수 있어 일석이조입니다. 이런 좋은 앱 많이 나왔으면
-                좋겠습니다. 이벤트 때문에 가입했는데 지인들에게 널리 알리고
-                싶어요!
+                환경을 생각해서 회사 사람들에게 소개를 했고 매일 회사 사람들과
+                함께 참여하고 있어요!! 또 다른 회사 직원분들은 집에서 아이들과
+                함께 게임처럼 환경을 지킬 수 있어요!
               </h4>
             </div>
 
             <div class="carouselColumn">
               <div class="secondCarousel">
-                <h3 class="carouselTitle">
-                  환경도 지키고<br />제 삶에도 유용해요
-                </h3>
-                <h6 class="carouselText">지미를 만난지 6개월차 김진태님</h6>
+                <h3 class="carouselTitle">사람들과 함께 해서<br />재밌어요.</h3>
+                <h6 class="carouselText">지미를 만난지 1개월차 이XX님</h6>
               </div>
               <div class="secondCarouselText">
                 <img src="../assets/phone.png" alt="" />

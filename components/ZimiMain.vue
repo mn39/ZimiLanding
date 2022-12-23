@@ -375,7 +375,7 @@ a {
   }
 
   .appDownloadContainer {
-    margin-top: 318px;
+    margin-top: 368px;
   }
   .appDownload:nth-child(1) {
     margin-right: 22px;
@@ -438,7 +438,7 @@ a {
     left: 40px;
   }
   .appDownloadContainer {
-    margin-top: 376px;
+    margin-top: 406px;
   }
 
   .detail2 {
@@ -499,7 +499,7 @@ a {
     left: 40px;
   }
   .appDownloadContainer {
-    margin-top: 376px;
+    margin-top: 436px;
   }
   .appDownload:nth-child(1) {
     margin-right: 14.26px;
