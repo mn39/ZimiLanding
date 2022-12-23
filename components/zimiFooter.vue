@@ -249,6 +249,9 @@ h4 {
     height: auto;
     justify-content: flex-start;
   }
+  .zzime {
+    margin-left: 0;
+  }
   .downText {
     display: none;
   }
@@ -259,7 +262,7 @@ h4 {
     margin-top: 32px;
     margin-bottom: 36px;
   }
-  .service {
+  .service h4 {
     font-size: 16px;
     line-height: 26px;
   }
@@ -302,7 +305,13 @@ h4 {
 @media (max-width: 600px) {
   .service {
     margin-left: 0px;
-    font-size: 12px;
+  }
+  .service h4 {
+    font-size: 10px;
+  }
+  .service img {
+    margin-left: 2px;
+    margin-right: 8px;
   }
   .copyRight {
     margin-left: 0px;

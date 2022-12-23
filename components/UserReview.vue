@@ -372,7 +372,7 @@ export default {}
   font-size: 15px;
 }
 
-.reviewName h5:nth-child(2) {
+.reviewName h5 {
   text-align: left;
   color: #51585b;
   margin-top: 5px;

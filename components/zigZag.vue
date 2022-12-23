@@ -265,7 +265,7 @@ export default {
 }
 .zimiStory {
   margin-top: 197px;
-  line-height: 72px;
+  line-height: 130%;
 }
 .carousel {
   position: relative;
@@ -297,6 +297,7 @@ export default {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 .firstCarouselText {
   margin-top: 24px;
