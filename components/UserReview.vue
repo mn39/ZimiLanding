@@ -96,7 +96,10 @@
           </h5>
           <div class="reviewProfile">
             <img src="../assets/userreview-41.png" alt="지미 유저 그림" />
-            <h6 class="reviewName">하나무</h6>
+            <div class="reviewName">
+              <h6>하나무</h6>
+              <h5>플레이스토어 5점</h5>
+            </div>
           </div>
         </div>
         <div class="oneReview">

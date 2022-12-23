@@ -47,7 +47,7 @@
           <div class="oneCarousel">
             <div class="carouselColumn">
               <div class="firstCarousel">
-                <img src="../assets/phone.png" alt="" />
+                <img src="../assets/phonePerson.png" alt="" />
               </div>
               <h4 class="firstCarouselText">
                 회원 가입도 간편하고 편해서 좋고 미션들도 너무 쉽고 적립금도
@@ -65,7 +65,7 @@
                 <h6 class="carouselText">지미를 만난지 6개월차 김진태님</h6>
               </div>
               <div class="secondCarouselText">
-                <img src="../assets/phonePerson.png" alt="" />
+                <img src="../assets/phone.png" alt="" />
               </div>
             </div>
           </div>
@@ -274,11 +274,19 @@ export default {
 }
 .oneCarousel {
   height: 754px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .carouselColumn {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -289,19 +297,22 @@ export default {
   margin-right: 24px;
 } */
 .firstCarousel {
-  height: 342px;
+  /* height: 342px; */
+  flex: 1;
   background-color: aqua;
   border-radius: 10px;
+  overflow: hidden;
 }
 .firstCarousel img {
-  height: 100%;
+  height: 110%;
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
 .firstCarouselText {
   margin-top: 24px;
-  height: 388px;
+  /* height: 388px; */
+  flex: 1;
   background: #e7eaec;
   border-radius: 10px;
   padding: 40px;
