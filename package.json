@@ -22,5 +22,8 @@
     "@nuxtjs/vercel-builder": "^0.24.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
