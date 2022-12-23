@@ -1,25 +1,26 @@
 <template>
   <div class="zigZagBody">
-    <div class="reviewTitle">생생한 유저 후기</div>
+    <h2 class="reviewTitle">차곡차곡 지구를 지켜왔어요</h2>
     <div class="hiddenContainer">
       <div class="zigZagPictureContainer">
         <transition-group name="slide">
-          <span
+          <img
             v-for="(n, index) in reviewList"
             v-bind:key="n"
             class="picture"
             v-bind:style="{
               left: (index - 4) * (250 + 24) - 125 + 'px',
               top: (n % 2) * 56 + 'px',
-              backgroundImage:
-                'url(' +
-                require(`../assets/userCarousel/userCarousel${n}.jpg`) +
-                ')',
-              // 'url(' + '../assets/userCarousel/userCarousel1.jpg' + ')',
+              // backgroundImage:
+              //   'url(' +
+              //   require(`../assets/userCarousel/userCarousel${n}.jpg`) +
+              //   ')',
             }"
-          >
-            <div class="pictureID"></div>
-          </span>
+            v-bind:src="require(`../assets/userCarousel/userCarousel${n}.jpg`)"
+            alt="실제 유저 활동 사진"
+          />
+          <!-- <div class="pictureID"></div>
+          </span> -->
         </transition-group>
       </div>
       <!-- <div class="zigZagPictureContainer">
@@ -37,29 +38,31 @@
         </span>
       </div> -->
     </div>
-    <div class="reviewTitle zimiStory">
+    <h2 class="reviewTitle zimiStory">
       직접 만나 들어 본 <br />지미들의 이야기
-    </div>
+    </h2>
     <div class="container996">
       <div class="forArrow">
         <div class="carousel">
           <div class="oneCarousel">
             <div class="carouselColumn">
-              <img src="../assets/phone.png" class="firstCarousel" alt="" />
-              <div class="firstCarouselText">
+              <div class="firstCarousel">
+                <img src="../assets/phone.png" alt="" />
+              </div>
+              <h4 class="firstCarouselText">
                 회원 가입도 간편하고 편해서 좋고 미션들도 너무 쉽고 적립금도
                 현금으로 바꿀 수 있어 일석이조입니다. 이런 좋은 앱 많이 나왔으면
                 좋겠습니다. 이벤트 때문에 가입했는데 지인들에게 널리 알리고
                 싶어요!
-              </div>
+              </h4>
             </div>
 
             <div class="carouselColumn">
               <div class="secondCarousel">
-                <div class="carouselTitle">
+                <h3 class="carouselTitle">
                   환경도 지키고<br />제 삶에도 유용해요
-                </div>
-                <div class="carouselText">지미를 만난지 6개월차 김진태님</div>
+                </h3>
+                <h6 class="carouselText">지미를 만난지 6개월차 김진태님</h6>
               </div>
               <div class="secondCarouselText">
                 <img src="../assets/phonePerson.png" alt="" />
@@ -289,6 +292,11 @@ export default {
   height: 342px;
   background-color: aqua;
   border-radius: 10px;
+}
+.firstCarousel img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .firstCarouselText {
   margin-top: 24px;

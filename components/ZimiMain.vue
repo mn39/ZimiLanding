@@ -12,27 +12,31 @@
             당신의 작은 실천의 시작에 함께합니다. 리워드를 통해 <br />
             환경보호를 재밌게, 꾸준히 지속하도록 돕습니다.<br />
             보상, 동기, 패널티, 커뮤니티를 핵심 요소로 <br />
-            지구 지킴이 습관이 되는 것을 목표로 합니다.
+            지구 지킴이 활동이 습관이 되는 것을 목표로 합니다.
           </h2>
           <div class="appDownloadContainer">
-            <div
+            <a
               class="appDownload"
-              onclick="location.href='https://apps.apple.com/kr/app/%EC%A7%80%EB%AF%B8-%EC%9D%BC%EC%83%81%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EC%A7%80%EA%B5%AC-%EC%A7%80%ED%82%B4%EC%9D%B4/id1632998684'"
+              href="https://apps.apple.com/kr/app/%EC%A7%80%EB%AF%B8-%EC%9D%BC%EC%83%81%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EC%A7%80%EA%B5%AC-%EC%A7%80%ED%82%B4%EC%9D%B4/id1632998684"
             >
-              <img class="appStoreLogo" src="../assets/appStore.svg" alt="" />
-              <div class="appDownText">App Store</div>
-            </div>
-            <div
+              <img
+                class="appStoreLogo"
+                src="../assets/appStore.svg"
+                alt="앱스토어 로고"
+              />
+              <h6 class="appDownText">App Store</h6>
+            </a>
+            <a
               class="appDownload"
-              onclick="location.href='https://play.google.com/store/apps/details?id=net.greenstaff.android.app'"
+              href="https://play.google.com/store/apps/details?id=net.greenstaff.android.app"
             >
               <img
                 class="googlePlayLogo"
                 src="../assets/googlePlay.svg"
-                alt=""
+                alt="구글 플레이스토어 로고"
               />
-              <div class="appDownText">Google Play</div>
-            </div>
+              <h6 class="appDownText">Google Play</h6>
+            </a>
           </div>
         </div>
       </div>
@@ -43,19 +47,23 @@
           </div>
         </div>
         <div class="ellipseFoot">
-          <img src="../assets/img-07.svg" class="foot" alt="" />
+          <img src="../assets/img-07.svg" class="foot" alt="재활용 그림" />
         </div>
         <div class="ellipseBicycle">
-          <img src="../assets/img-08.svg" class="bicycle" alt="" />
+          <img src="../assets/img-08.svg" class="bicycle" alt="자전거 그림" />
         </div>
         <div class="ellipseRecycle">
-          <img src="../assets/img-09.svg" class="recycle" alt="" />
+          <img src="../assets/img-09.svg" class="recycle" alt="재활용 그림" />
         </div>
-        <img class="people" src="../assets/people-05.svg" alt="" />
+        <img
+          class="people"
+          src="../assets/people-05.svg"
+          alt="지미 사람 그림"
+        />
       </div>
     </div>
     <div class="mainBot">
-      <div class="detail2">
+      <h3 class="detail2">
         개인과 기업, 정부까지<br />
         우리 모두가 실천한 친환경 활동을 정량적으로 측정해드립니다.<br />
         이는 지구를 지키는 일에 보람을 더하며 올바른 환경보호 방법을<br />
@@ -63,7 +71,7 @@
         <br />
         지미는 개인과 기업 그리고 정부 모두의 노력을 공유하여<br />
         그린 경제의 선두자로 나아가고자 합니다.
-      </div>
+      </h3>
     </div>
   </div>
 </template>
@@ -74,6 +82,9 @@ export default {}
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css" scoped>
+a {
+  text-decoration: none;
+}
 .zimiMain {
   height: 1080px;
   overflow: hidden;

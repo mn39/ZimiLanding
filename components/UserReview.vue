@@ -3,12 +3,12 @@
     <div class="container972">
       <div class="stat">
         <div class="oneStat">
-          <div class="statTitle">총 미션 수행</div>
-          <div class="tot">85,000개+</div>
+          <h4 class="statTitle">총 미션 수행</h4>
+          <h5 class="tot">85,000개+</h5>
         </div>
         <div class="oneStat">
-          <div class="statTitle">DAU/MAU</div>
-          <div class="dau">
+          <h4 class="statTitle">DAU/MAU</h4>
+          <h5 class="dau">
             매일
             <span class="blueText">1200명</span>
             <span class="dauShort">, </span>
@@ -17,47 +17,52 @@
             <span class="blueText">9000명</span>이
             <br />
             함께하고 있어요
-          </div>
+          </h5>
         </div>
         <div class="oneStat">
-          <div class="statTitle">함께 한 기업</div>
+          <h4 class="statTitle">함께 한 기업</h4>
           <div class="forShort">
             <div class="storeContainer">
               <span class="oneStore">
+                <h3 class="duckBun">덕분애</h3>
                 <div class="blueLine"></div>
-                <span class="duckBun"> 덕분애 </span>
               </span>
               <span class="oneStore">
                 <div class="blueLine"></div>
-                <span>1.5도씨</span>
+                <h3 class="oneFive">1.5도씨</h3>
               </span>
             </div>
-            <div class="plz">
+            <h4 class="plz">
               더 많은 분들과의
               <br class="dauLarge" />
               협업을 기대하고 있어요!
-            </div>
+            </h4>
           </div>
         </div>
       </div>
     </div>
-    <div class="reviewTitle">생생한 유저 후기</div>
+    <h2 class="reviewTitle">생생한 유저 후기</h2>
     <div class="container972 userReview">
       <div class="reviewOneRow">
         <div class="oneReview">
-          <div class="reviewText">
-            디자인이 깔끔해<br />
-            쉽게 사용할 수 있어요.<br />
-            환경을 지키면서 포인트도<br />
-            쌓을 수 있어서 좋아요!
-          </div>
+          <h5 class="reviewText">
+            지구를 위해<br />
+            일상생활에서 할 수 있는 방법들을<br />
+            접할 수 있어서 좋아요!<br />
+            열심히 함께 지구를 구해요
+          </h5>
           <div class="reviewProfile">
-            <img src="../assets/userreview-40.png" alt="" />
-            <div class="reviewName">김현도</div>
+            <img src="../assets/userreview-40.png" alt="지미 유저 그림" />
+            <h6 class="reviewName">
+              <div class="reviewName">
+                <h6>김현도</h6>
+                <h5>앱스토어 5점</h5>
+              </div>
+            </h6>
           </div>
         </div>
         <div class="oneReview">
-          <div class="reviewText">
+          <h5 class="reviewText">
             <!-- 회원 가입이 간편하고 미션이 쉬워요.<br />
             적립금도 현금으로 바꿀 수 있어 일석이조<br />
             입니다. 이벤트 때문에 가입했는데<br />
@@ -66,19 +71,19 @@
             회원 가입이 간편하고 미션이 쉬워요. 적립금도 현금으로 바꿀 수 있어
             일석이조 입니다. 이벤트 때문에 가입했는데 지인들에게 널리 알리고
             싶어요!
-          </div>
+          </h5>
           <div class="reviewProfile">
-            <img src="../assets/userreview-42.png" alt="" />
+            <img src="../assets/userreview-42.png" alt="지미 유저 그림" />
             <div class="reviewName">
-              <div>김현도</div>
-              <div>플레이스토어 5점</div>
+              <h6>김현도</h6>
+              <h5>플레이스토어 5점</h5>
             </div>
           </div>
         </div>
       </div>
       <div class="reviewOneRow">
         <div class="oneReview">
-          <div class="reviewText">
+          <h5 class="reviewText">
             <!-- 질문에 대한 피드백이 빠르셔서 최근에<br />
             사용한 앱 중에서도 참 만족스럽습니다.<br />
             환상인지 모르겠으나, 지속가능성을 <br />
@@ -88,14 +93,14 @@
             만족스럽습니다.<br />
             환상인지 모르겠으나, 지속가능성을 지미에서 함께 찾아갈 수 있을 것
             같아요.
-          </div>
+          </h5>
           <div class="reviewProfile">
-            <img src="../assets/userreview-41.png" alt="" />
-            <div class="reviewName">하나무</div>
+            <img src="../assets/userreview-41.png" alt="지미 유저 그림" />
+            <h6 class="reviewName">하나무</h6>
           </div>
         </div>
         <div class="oneReview">
-          <div class="reviewText">
+          <h5 class="reviewText">
             <!-- 재활용에 대한 팁을 얻을 수 있어 좋습니다.<br />
             종이 상자에 있는 테이프를 떼지 않으면<br />
             재활용이 불가능한 걸 몰랐는데, 지미 덕분에<br />
@@ -103,12 +108,12 @@
             재활용에 대한 팁을 얻을 수 있어 좋습니다. 종이 상자에 있는 테이프를
             떼지 않으면 재활용이 불가능한 걸 몰랐는데, 지미 덕분에 올바른 재활용
             방법을 알게 됐습니다.
-          </div>
+          </h5>
           <div class="reviewProfile">
-            <img src="../assets/userreview-43.png" alt="" />
+            <img src="../assets/userreview-43.png" alt="지미 유저 그림" />
             <div class="reviewName">
-              <div>황도연</div>
-              <div>플레이스토어 5점</div>
+              <h6>황도연</h6>
+              <h5>플레이스토어 5점</h5>
             </div>
           </div>
         </div>
@@ -210,15 +215,6 @@ export default {}
 }
 .oneStore {
   position: relative;
-  font-family: 'Pretendard';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 41px;
-  text-align: left;
-  letter-spacing: -0.4px;
-
-  color: #000000;
 }
 
 .oneStore:nth-child(1) {
@@ -231,8 +227,34 @@ export default {}
 }
 
 .duckBun {
+  position: relative;
+  display: inline;
+  z-index: 6;
   left: 2px;
   width: 88px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: left;
+  letter-spacing: -0.4px;
+
+  color: #000000;
+}
+.oneFive {
+  position: relative;
+  display: inline;
+  z-index: 6;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: left;
+  letter-spacing: -0.4px;
+
+  color: #000000;
 }
 .blueLine {
   position: absolute;
@@ -344,14 +366,18 @@ export default {}
   justify-content: space-between;
 }
 
-.reviewName div {
+.reviewName h6 {
   text-align: left;
+  font-weight: 500;
+  font-size: 15px;
 }
 
-.reviewName div:nth-child(2) {
+.reviewName h5:nth-child(2) {
   text-align: left;
   color: #51585b;
   margin-top: 5px;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 @media (max-width: 1044px) {
@@ -467,6 +493,12 @@ export default {}
   .oneStore {
     font-size: 24px;
   }
+  .duckBun {
+    font-size: 24px;
+  }
+  .oneFive {
+    font-size: 24px;
+  }
   .plz {
     font-size: 16px;
   }
@@ -494,6 +526,14 @@ export default {}
     height: 20px;
   }
   .reviewName {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .reviewName h5 {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .reviewName h6 {
     font-size: 8px;
     line-height: 12px;
   }

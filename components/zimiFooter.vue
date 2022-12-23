@@ -10,42 +10,43 @@
           <img class="greenZime" src="../assets/greenZime.svg" alt="" />
         </div>
         <div class="downContainer">
-          <div class="downText">지미 앱 다운로드하기</div>
+          <h3 class="downText">지미 앱 다운로드하기</h3>
 
           <div class="appDownloadContainer">
-            <div
+            <a
               class="appDownload"
-              onclick="location.href='https://apps.apple.com/kr/app/%EC%A7%80%EB%AF%B8-%EC%9D%BC%EC%83%81%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EC%A7%80%EA%B5%AC-%EC%A7%80%ED%82%B4%EC%9D%B4/id1632998684'"
+              href="https://apps.apple.com/kr/app/%EC%A7%80%EB%AF%B8-%EC%9D%BC%EC%83%81%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EC%A7%80%EA%B5%AC-%EC%A7%80%ED%82%B4%EC%9D%B4/id1632998684"
             >
               <img class="appStoreLogo" src="../assets/appStore.svg" alt="" />
-              <div class="appDownText">App Store</div>
-            </div>
-            <div
+              <h5 class="appDownText">App Store</h5>
+            </a>
+
+            <a
               class="appDownload"
-              onclick="location.href='https://play.google.com/store/apps/details?id=net.greenstaff.android.app'"
+              href="https://play.google.com/store/apps/details?id=net.greenstaff.android.app"
             >
               <img
                 class="googlePlayLogo"
                 src="../assets/googlePlay.svg"
                 alt=""
               />
-              <div class="appDownText">Google Play</div>
-            </div>
+              <h5 class="appDownText">Google Play</h5>
+            </a>
           </div>
         </div>
       </div>
       <div class="secondLine"></div>
       <div class="service">
-        <span>서비스 문의</span>
+        <h4>서비스 문의</h4>
         <img src="../assets/serviceCheck.svg" alt="" />
-        <span>제휴 문의</span>
+        <h4>제휴 문의</h4>
         <img src="../assets/serviceCheck.svg" alt="" />
-        <span>개인정보 처리방침</span>
+        <h4>개인정보 처리방침</h4>
         <img src="../assets/serviceCheck.svg" alt="" />
-        <span>이용약관</span>
+        <h4>이용약관</h4>
         <img src="../assets/serviceCheck.svg" alt="" />
       </div>
-      <div class="copyRight">Copyright © 2022 ZIME All Rights Reserved.</div>
+      <h5 class="copyRight">Copyright © 2022 ZIME All Rights Reserved.</h5>
     </div>
   </div>
 </template>
@@ -54,7 +55,13 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
+a {
+  text-decoration: none;
+}
+h4 {
+  display: inline;
+}
 .footerBody {
   margin-top: 56px;
   width: 100vw;
@@ -181,7 +188,7 @@ export default {}
   height: 1px;
   background: #d8dee4;
 }
-.service {
+.service h4 {
   font-family: 'Pretendard';
   font-style: normal;
   font-weight: 500;
@@ -190,12 +197,12 @@ export default {}
   letter-spacing: -0.4px;
 
   color: #51585b;
+}
+.service {
   margin-top: 30px;
   margin-left: 71px;
-
   text-align: left;
 }
-
 .service img {
   margin-left: 6px;
   margin-right: 34px;
