@@ -5,11 +5,11 @@
         <div class="mainFlex">
           <h1 class="title">
             일상에서 시작하는<br />
-            지구지킴이 생활, 지미
+            지구지킴이, 지미
           </h1>
           <h2 class="detail">
             지미는 당신의 작은 실천으로 시작합니다.<br />지구를 위한 미션을 다른
-            사람들과 함께 하며<br />환경 보호를 재밌고, 힙하게 해보세요!
+            사람들과 함께 하며<br />환경 보호를 재밌고, 힙하게 실천하세요!
           </h2>
           <div class="appDownloadContainer">
             <a
