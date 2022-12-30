@@ -35,6 +35,10 @@ export default {
         content: '48g6Z3qYfJtzqOu0LsY3pmoUVXKocHF75QK4G3pTt44',
       },
       {
+        name: 'google-site-verification',
+        content: 'rO5k_BvnqEs7DYXThT4PgwiHFsLzTdK3VcMpVS5QEMM',
+      },
+      {
         hid: 'og:image',
         property: 'og:image',
         content:
