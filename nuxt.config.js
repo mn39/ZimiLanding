@@ -57,7 +57,7 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/robots'],
+  modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
