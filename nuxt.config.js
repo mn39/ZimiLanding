@@ -31,6 +31,10 @@ export default {
           '지미는 당신의 작은 실천으로 시작합니다. 지구를 위한 미션을 다른 사람들과 함께 하며 환경 보호를 재밌고, 힙하게 해보세요!',
       },
       {
+        name: 'google-site-verification',
+        content: '48g6Z3qYfJtzqOu0LsY3pmoUVXKocHF75QK4G3pTt44',
+      },
+      {
         hid: 'og:image',
         property: 'og:image',
         content:
