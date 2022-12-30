@@ -528,6 +528,12 @@ a {
   }
 }
 @media (max-width: 430px) {
+  .zimiMain {
+    height: 960px;
+  }
+  .mainFlexContainer {
+    height: 960px;
+  }
   .title {
     font-size: 35px;
   }
@@ -536,6 +542,53 @@ a {
   }
   .detail {
     margin-top: 17px;
+  }
+  .appDownloadContainer {
+    margin-top: 356px;
+  }
+  .ellipseBicycle {
+    top: -442px;
+    left: -64px;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+  }
+  .bicycle {
+    width: 54.88px;
+    height: 45.77px;
+  }
+
+  .ellipseFoot {
+    top: -588px;
+    left: 69px;
+    width: 102.09px;
+    height: 102.09px;
+  }
+
+  .foot {
+    width: 60px;
+    height: 69px;
+  }
+
+  .ellipseRecycle {
+    top: -370px;
+    left: 102px;
+    width: 69px;
+    height: 69px;
+  }
+
+  .recycle {
+    width: 26.24px;
+    height: 54.14px;
+  }
+  .people {
+    top: -555px;
+    width: 124px;
+    height: 288px;
+    left: -9px;
+  }
+  .mainBot {
+    padding-top: 0px;
   }
 }
 </style>

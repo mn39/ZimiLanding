@@ -1,15 +1,17 @@
 <template>
   <div class="stickyBody">
-    <div class="sticky" onClick="javascript:window.scrollTo(0,0);">
-      <h3>지미 앱</h3>
-      <h5>
-        받기
+    <a href="https://zimenyou.page.link/app-download">
+      <div class="sticky">
+        <h3>지미 앱</h3>
+        <h5>
+          받기
 
-        <span>
-          <img src="../assets/downBtn.svg" alt="다운로드 버튼" />
-        </span>
-      </h5>
-    </div>
+          <span>
+            <img src="../assets/downBtn.svg" alt="다운로드 버튼" />
+          </span>
+        </h5>
+      </div>
+    </a>
   </div>
 </template>
 
